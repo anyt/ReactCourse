@@ -1,0 +1,329 @@
+body {
+    background: #E4F2FB;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display";
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 94px;
+}
+
+h2:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-right: 2px solid #00042D;
+    height: 100px;
+}
+
+article:nth-child(even) h2:after {
+    border-color: #fff;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+main {
+    max-width: 868px;
+    margin: 118px auto 136px;
+    background: #fff;
+    position: relative;
+}
+article {
+    padding: 80px 78px;
+    color: #00042D;
+}
+article:nth-child(even) {
+    background: #00042D;
+    color: #fff
+}
+
+
+article#intro > div {
+    width: 475px;
+}
+article#intro h1 {
+    font-size: 90px;
+    line-height: 90px;
+}
+
+article#intro > img {
+    position: absolute;
+    right: -209px;
+    top: 155px;
+}
+
+article:nth-child(even) a,
+button {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 40px;  
+    border: 2px solid #FFFFFF;
+    display: inline-block; 
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+article:nth-child(even) a:hover,
+button:hover {
+    background: rgba(255,255, 266, 0.3);
+    transition: all 0.2s ease;
+}
+
+article p {
+    margin: 40px 0 47px;  
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+article#services ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+article#services ul > li {
+    flex: 25%;
+    text-align: center;
+}
+
+article#services ul > li > svg {
+    display: block;
+    margin: 0 auto;
+}
+
+article#experience h3 {
+    position: relative;
+}
+article#experience h3:after {
+    content: "+";
+    font-size: 20px;
+    vertical-align: center;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+
+article#experience section.expanded h3:after {
+    content: "-";
+}
+
+article#experience section {
+    border-bottom: 2px solid #00042D;
+}
+
+
+article#portfolio  {
+    counter-reset: portfolio-li-counter;
+
+}
+
+article#portfolio section p {
+    margin: 0;
+}
+
+article#portfolio section p > img {
+    display: block;
+    clear: both;
+}
+
+article#portfolio section > h3 {
+    counter-increment: portfolio-li-counter;
+    font-family: "Playfair Display";
+    font-size: 50px;
+    line-height: 94px;
+    padding: 0;
+    margin: 0;
+}
+
+article#portfolio section > h3:before {
+    content: "0" counter(portfolio-li-counter);
+    font-size: 20px;
+    line-height: 94px;
+    padding-right: 10px;
+}
+
+article#education dl {
+    margin: 47px 0 0;
+    
+}
+article#education dl > div {
+    display: flex;
+}
+article#education dt {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    background: #fff;
+    position: relative;
+    flex: 170px;
+    padding: 20px 56px 20px 0;
+}
+
+article#education dt .icon-circle {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #00042D;
+    border-radius: 50%;
+    position: absolute;
+    right: 56px;
+    top: 16px;
+    z-index: 3;
+    background-color: #fff;
+}
+
+article#education div:last-child dt .icon-circle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    left: 8px;
+    top: 8px;
+    background-color: #00042D;
+}
+
+article#education dd {
+    flex: calc(100% - 170px);
+    padding-bottom: 32px;
+    position: relative;
+}
+
+article#education dd:after {
+    content: '';
+    width: 2px;
+    background: #00042D;
+    height: calc(100% - 50px);
+    position: absolute;
+    display: block;
+    top: 73px;
+    left: -117px;
+}
+
+article#education div:last-child dd:after {
+    background: none;
+}
+
+article#skills dl > div {
+    position: relative;
+    overflow: hidden;
+}
+
+article#skills dl > div:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 18px;
+    z-index: 0;
+}
+
+article#skills dt {
+    border: 2px solid #fff;
+    display: block;
+    float: left;
+    clear: left;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin: 0 0 26px 0;
+    position: relative;
+    background: #00042D;
+    z-index: 1;
+}
+
+article#skills dd {
+    clear: right;
+    float: right;
+    font-size: 22px;
+    line-height: 35px;
+    z-index: 1;
+    background: #00042D;
+    padding: 0 20px;
+    position: relative;
+}
+
+article#contact {
+    padding-right: 256px;
+}
+
+input[type=text] {
+    border-bottom: solid white;
+    border-width: 0 0 2px 0;
+    padding: 5px;
+    width: 100%;
+    margin: 0 0 40px 0;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+input::placeholder {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}
+
+
+aside {
+    display: flex;
+    width: 46px;
+    left: calc(50% - 500px);
+    position: fixed;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    flex-direction: row-reverse;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+aside svg {
+    transform: rotate(180deg);
+}
+
+aside span {
+    font-weight: 700;
+    padding-bottom: 44px;
+}
+
+aside menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin:  0 0 150px 0;
+}
+aside a {
+    text-decoration: none;
+    color: #00042D;
+    padding: 0 0 44px 0;
+}
+
+footer {
+    padding: 46px 78px 25px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
