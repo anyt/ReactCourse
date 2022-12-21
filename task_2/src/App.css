@@ -1,0 +1,51 @@
+main {
+    max-width: 868px;
+    margin: 118px auto 136px;
+    background: #fff;
+    position: relative;
+}
+
+article {
+    padding: 80px 78px;
+    color: #00042D;
+}
+
+article:nth-child(odd),
+article#contact {
+    background: #00042D;
+    color: #fff
+}
+
+article:nth-child(odd) h2:after,
+article#contact h2:after {
+    border-color: #fff;
+}
+
+article:nth-child(odd) a,
+button {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 40px;
+    border: 2px solid #FFFFFF;
+    display: inline-block;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+article:nth-child(odd) a:hover,
+button:hover {
+    background: rgba(255, 255, 266, 0.3);
+    transition: all 0.2s ease;
+}
+
+article p {
+    margin: 40px 0 47px;
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}

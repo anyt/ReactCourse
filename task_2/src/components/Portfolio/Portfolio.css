@@ -1,0 +1,34 @@
+article#portfolio {
+    counter-reset: portfolio-li-counter;
+}
+
+article#portfolio section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article#portfolio section p {
+    margin: 0;
+}
+
+article#portfolio section p > img {
+    display: block;
+    clear: both;
+}
+
+article#portfolio section > h3 {
+    counter-increment: portfolio-li-counter;
+    font-family: "Playfair Display";
+    font-size: 50px;
+    line-height: 94px;
+    padding: 0;
+    margin: 0;
+}
+
+article#portfolio section > h3:before {
+    content: "0" counter(portfolio-li-counter);
+    font-size: 20px;
+    line-height: 94px;
+    padding-right: 10px;
+}

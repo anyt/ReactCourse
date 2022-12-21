@@ -1,0 +1,21 @@
+article#contact {
+    padding-right: 256px;
+}
+
+input[type=text] {
+    border-bottom: solid white;
+    border-width: 0 0 2px 0;
+    padding: 5px;
+    width: 100%;
+    margin: 0 0 40px 0;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+
+input::placeholder {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}

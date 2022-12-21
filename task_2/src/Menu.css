@@ -1,0 +1,36 @@
+aside {
+    display: flex;
+    width: 46px;
+    left: calc(50% - 500px);
+    position: fixed;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    flex-direction: row-reverse;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+aside svg {
+    transform: rotate(180deg);
+}
+
+aside span {
+    font-weight: 700;
+    padding-bottom: 44px;
+}
+
+aside menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 150px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: #00042D;
+    padding: 0 0 44px 0;
+}

@@ -1,0 +1,18 @@
+<svg className="service-icon" width="101" height="101" viewBox="0 0 101 101" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <path
+            d="M85.5 65.503C85.5 79.306 74.309 90.5 60.504 90.5C46.692 90.5 35.5 79.306 35.5 65.503C35.5 51.691 46.692 40.5 60.504 40.5C74.309 40.5 85.5 51.691 85.5 65.503Z"
+            stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+            stroke-linejoin="round"/>
+    <path d="M50.492 70.499L90.5 10.5H10.5L50.492 70.499Z" stroke="white" stroke-width="2"
+          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M70.498 70.499L90.5 90.5L70.498 70.499Z" stroke="white" stroke-width="2"
+          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M35.5 30.502L10.5 55.498L35.5 30.502Z" stroke="white" stroke-width="2"
+          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M27.999 67.999H10.5V85.502H27.999V67.999Z" stroke="white" stroke-width="2"
+          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45.5 25.5L56.748 33L67.996 25.5L56.748 17.999L45.5 25.5Z" stroke="white"
+          stroke-width="2"
+          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,40 @@
+article#skills dl > div {
+    position: relative;
+    overflow: hidden;
+}
+
+article#skills dl > div:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 18px;
+    z-index: 0;
+}
+
+article#skills dt {
+    border: 2px solid #fff;
+    display: block;
+    float: left;
+    clear: left;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin: 0 0 26px 0;
+    position: relative;
+    background: #00042D;
+    z-index: 1;
+}
+
+article#skills dd {
+    clear: right;
+    float: right;
+    font-size: 22px;
+    line-height: 35px;
+    z-index: 1;
+    background: #00042D;
+    padding: 0 20px;
+    position: relative;
+}

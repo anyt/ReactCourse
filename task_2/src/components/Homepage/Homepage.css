@@ -1,0 +1,31 @@
+article#intro > div {
+    width: 475px;
+}
+
+article#intro h1 {
+    font-size: 90px;
+    line-height: 90px;
+}
+
+article#intro > img {
+    position: absolute;
+    right: -209px;
+    top: 155px;
+}
+
+article#services ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+article#services ul > li {
+    flex: 25%;
+    text-align: center;
+}
+
+article#services ul > li > svg {
+    display: block;
+    margin: 0 auto;
+}
